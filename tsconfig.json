@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "es6",
+    "moduleResolution": "node",
+    "declaration": false,
+    "noImplicitAny": false,
+    "sourceMap": true,
+    "jsx": "react",
+    "noLib": false,
+    "allowJs": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true
+  },
+  "awesomeTypescriptLoaderOptions": {
+    "useWebpackText": true,
+    "useTranspileModule": true,
+    "doTypeCheck": true,
+    "forkChecker": true
+    },
+  "include": ["./src/**/*"]
+}
